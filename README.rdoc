@@ -1,0 +1,6 @@
+= Puppet define: crond
+
+This define allows to create cron files in /etc/cron.d.
+It basically takes the same arguments like the cron type included in puppet,
+except provider, special and target.
+
