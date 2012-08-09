@@ -1,0 +1,8 @@
+# MANAGED BY PUPPET
+<% if @environment -%>
+<% environment.each do |env| -%>
+<% env %>
+<% end -%>
+
+<% end -%>
+<%= minute %> <%= hour %> <%= monthday %> <%= month %> <%= weekday %> <%= user %> <%= command %>
