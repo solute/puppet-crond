@@ -11,7 +11,6 @@ define crond (
     $weekday        = '*',
     ) {
 
-
     file { "/etc/cron.d/${name}":
         ensure  => $ensure,
         mode    => '0644',
