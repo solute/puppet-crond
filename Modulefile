@@ -1,0 +1,8 @@
+name    'credativ/crond'
+version '1.0.0'
+source 'git://github.com/credativ/puppet-crond.git'
+author 'aptituz'
+license 'GPLv2'
+summary 'puppet define for cron.d files'
+description 'This define allows managing of cron.d files, similar to the cron provider'
+project_page 'https://github.com/credativ/puppet-crond'
