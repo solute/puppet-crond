@@ -1,4 +1,5 @@
 = Puppet define: crond
+{<img src="https://travis-ci.org/credativ/puppet-crond.png" />}[https://travis-ci.org/credativ/[puppet-crond]]
 
 This define allows to create cron files in /etc/cron.d.
 It basically takes the same arguments like the cron type included in puppet,
